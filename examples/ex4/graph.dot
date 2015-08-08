@@ -1,0 +1,16 @@
+digraph railway_station {
+  in1 -> s1;
+  in2 -> s2;
+  s1 -> s3;
+  s1 -> s5;
+  s2 -> s4;
+  s2 -> s6;
+  s3 -> s6;
+  s3 -> out3;
+  s4 -> s5;
+  s4 -> out1;
+  s5 -> out1;
+  s5 -> out2;
+  s6 -> out2;
+  s6 -> out3;
+}

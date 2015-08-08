@@ -1,0 +1,5 @@
+digraph railway_station {
+  in -> s;
+  s -> out1;
+  s -> out2;
+}
